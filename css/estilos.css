@@ -8,7 +8,8 @@
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    line-height: 1.5rem;;
+    line-height: 1.5rem;
+    background-color: #e8f5e0;
 }
 
 * {
@@ -85,19 +86,13 @@ header>nav a:hover {
         margin: 0 auto;
     }
 }
-
-@media screen and (min-width: 1200px) {
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-        
-    header li {
-        display: inline;
-        margin-left: 35px;
-    }
+  
+header li {
+    display: inline;
+    margin-left: 10px;
 }
+
+
 /**                        Fin Header               **/
 
 
@@ -202,19 +197,6 @@ footer ul {
     margin-top: 20px;
 }
 
-#verLista {
-    text-align: center;
-}
-
-#verLista a:link, #verLista a:visited {
-    font-size: 0.8rem;
-    color: rgb(245, 157, 35);
-}
-
-#verLista a:hover {
-    color: rgb(93, 95, 121);
-}
-
 .index-referente-container {
     margin: 20px 0px 70px 0px;
     display: flex;
@@ -224,11 +206,15 @@ footer ul {
 }
 
 .index-referente {
+    background-color: white;
+    border: 1px solid rgb(141, 128, 128);
+    border-radius: 5%;
     width: 100%;
-    margin-top: 5px;
+    margin-top: 15px;
     text-align: center;
     line-height: 2rem;
-    padding-bottom: 20px;;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .index-referente .disciplina {
@@ -251,8 +237,6 @@ footer ul {
 @media screen and (min-width: 700px) {          /* Diseño para tablets (> 700 px de ancho)   */
     .index-referente {
         width: 45%;
-        text-align: left;
-        margin-bottom: 30px;
     }
 
     .index-referente .nombre {
@@ -285,11 +269,6 @@ footer ul {
         margin-bottom: 35px;
     }
 
-    .index-referente {
-        width: 23%;
-        text-align: left;
-        margin-bottom: 30px;
-    }
 }
 
 /**               fin index.html                **/
