@@ -34,15 +34,21 @@ img {
 }
 
 h1 {
-    font-size: 3rem;
+    color: rgb(2, 117, 54);
+    font-size: 2rem;
     text-align: center;
     font-weight: 800;
     line-height: 1em;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+#cuarteto {
+    font-style: italic;
+    font-size: 1.2em;
+    color: rgb(150, 6, 6);
 }
 
 h2 {
-    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
 }
@@ -51,7 +57,6 @@ h2 {
 
 /**                          Header                       **/
 header {
-    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -74,13 +79,13 @@ header {
 
 header>nav {
     font-size: 1.2rem;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 25px;
     line-height: 1.7rem;
 }
 
 header>nav a:link, header>nav a:visited {
-    color: rgb(93,95,121);
+    color: rgb(38, 39, 51);
     font-weight: 800;
 }
 
@@ -97,7 +102,7 @@ header>nav a:hover {
   
 header li {
     display: inline;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 
@@ -107,11 +112,11 @@ header li {
 
 /**                       Footer                    **/
 footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: center;
     color: rgb(255,255,255);
-    background-color: rgb(0,0,0);
+    background-color: rgb(99, 91, 91);
 }
 
 footer a:link, footer a:visited {
@@ -134,7 +139,7 @@ footer input[type="email"] {
     font-size: 1em;
     text-align: center;
     color: white;
-    background: black;
+    background: rgb(116, 108, 108);
     border: 0;
     width: 100%;
     max-width: 450px;
@@ -206,7 +211,7 @@ footer ul {
 }
 
 .index-referente-container {
-    margin: 20px 0px 70px 0px;
+    margin: 0px 0px 20px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -215,10 +220,10 @@ footer ul {
 
 .index-referente {
     background-color: white;
-    border: 1px solid rgb(141, 128, 128);
+    border: 1px solid rgb(206, 189, 189);
     border-radius: 5%;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 25px;
     text-align: center;
     line-height: 2rem;
     padding-top: 5px;
