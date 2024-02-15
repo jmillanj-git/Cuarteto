@@ -211,11 +211,12 @@ footer ul {
 }
 
 .index-referente-container {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    font-style: italic;
 }
 
 .presentacion {
@@ -229,6 +230,7 @@ footer ul {
     padding-top: 5px;
     padding-bottom: 5px;
     align-items: center;
+    font-style: italic;
 }
 
 .index-referente {
